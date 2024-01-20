@@ -1,75 +1,25 @@
-# Nuxt 3 Minimal Starter
+[Font Base](https://github.com/florinpop17/app-ideas/blob/master/Projects/3-Advanced/Chat-App.md)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A real-time web chat, and multiple users can interact. The first idea is create the `MVP`
 
-## Setup
+**Requirement:**
+- [ ] User can create accont, putting name
+- [ ] User inital acess a one chat
+- [ ] User can type in a `input field`
+- [ ] Pressing `enter` or `send` button to send message of input
 
-Make sure to install the dependencies:
+**Flow:**
+- [ ] User type a username and store this in app
+- [ ] And user see a field to type a message
+- [ ] Presse enter or click in send and display in box, with username - `Fefeh: oi bebe`
 
-```bash
-# npm
-npm install
+**Stack:**
+Nuxt.JS, Socket.IO, UnoCSS
 
-# pnpm
-pnpm install
+### Design
+**Tipografia:** Sem serifa (precisa e geométrica)
+- Para o conteúdo uma sem serifa (por ser precisa, mais geométrica) - Open Sans
+- Para um contraste, para usar em **títulos e botões** precisa ser diferente da *Anterior* - Poppins
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**Colors:**
+![[Pasted image 20240120110427.png]]
